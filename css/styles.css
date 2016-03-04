@@ -14,13 +14,23 @@ h2{
 	color: #FC4600;
 	font-size: 40px;
 }
+/* ----------------- */
 #img-top {
 	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#img-top img {
+	width: 18%;
 }
 #img-bottom {
-	padding-top: 5px;
-	margin-top: 5px;
+	/*padding-top: 8px;*/
+	margin-top: 15px;
 }
+#img-bottom img {
+	width: 20%;
+}
+/* ------------------ */
 #countdown-wrapper {
 	color: #fff;
 	font-size: 30px;
@@ -32,14 +42,26 @@ h2{
 	display: inline-block;
 }
 
+
 .time-wrapper > div{
 	padding: 15px;
 	border-radius: 15px;
-	background-color: #00806B;
-	display: inline-block;
+	/*background-color: #00806B;*/
+}
+
+.time-value {
+	font-size: 22px;
+	background-color: #02A375;
+	color: #fff;
+	padding: 10px 0px 10px 0px;
+	border-radius: 5px;
 }
 
 .time-text {
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 20px;
+	background-color: #00806B;
+    /*  */
+	border-radius: 10px;
+
 }
