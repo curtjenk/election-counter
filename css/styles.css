@@ -1,0 +1,45 @@
+body{
+	text-align: center;
+	background-color: #01ED87;
+
+}
+
+h1{
+	color: #FC4600;
+	font-size: 60px;
+	margin: 40px 0px 0px;
+}
+
+h2{
+	color: #FC4600;
+	font-size: 40px;
+}
+#img-top {
+	margin-bottom: 5px;
+}
+#img-bottom {
+	padding-top: 5px;
+	margin-top: 5px;
+}
+#countdown-wrapper {
+	color: #fff;
+	font-size: 30px;
+}
+#countdown-wrapper > div { /* ">" targets all the first level div */
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00806B;
+	display: inline-block;
+}
+
+.time-wrapper > div{
+	padding: 15px;
+	border-radius: 15px;
+	background-color: #00806B;
+	display: inline-block;
+}
+
+.time-text {
+	padding-top: 15px;
+	font-size: 20px;
+}
