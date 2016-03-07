@@ -65,7 +65,42 @@ function initTimer() {
 
 };
 
-function updateTimer() {
+function setEndDate() {
+	var yyyy = document.getElementById('inputYear').value;
+	var month = document.getElementById('inputMonth').value;
+	var day = document.getElementById('inputDay').value;
+//alert("here");
+	if (!isValidDateNumber('year', yyyy)
+		|| !isValidDateNumber('month', month)
+		|| !isValidDateNumber('day', day))
+	{
+		alert("Please enter a valid Year, Month, Day");
+	} else {
+		endTime = new Date(yyyy, month, day, 0, 0, 0, 0);
+	}
+}
+
+function isValidDateNumber(type, value) {
+	var answer = true;
+	if (isNaN(value)) {
+		answer = false; 
+	}
+	if (value === 0) {
+		answer =  false;
+	}
+	if (type === 'month' && value > 12) {
+		answer =  false;
+	}
+	if (type === 'day' && value > 31) {
+		answer =  false;
+	}
+	if (type === 'year') {
+	  var currentYear = (new Date()).getFullYear(); 
+	  if (value < currentYear) {
+			answer =  false;
+		}
+	}
+	return answer;
 
 };
 
