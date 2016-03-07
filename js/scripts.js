@@ -1,6 +1,6 @@
 var endTime = new Date(2016, 10, 8, 19, 0, 0, 0);
 //next line for testing only
-endTime = new Date(2016, 2, 4, 16, 12, 0, 0);
+//endTime = new Date(2016, 2, 4, 16, 12, 0, 0);
 var endTimeStamp = Date.parse(endTime);
 
 var timer = document.getElementById('countdown-wrapper');
