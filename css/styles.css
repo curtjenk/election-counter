@@ -16,13 +16,16 @@ h2{
 }
 /* ----------------- */
 #countdown-date {
-	font: italic bold 18px serif;
+	font: italic bold 24px serif;
 	margin-bottom: 5px;
 }
+/*#countdown-date input {
+	height: 18px;
+}*/
 button {
   display: inline-block;
   /*padding: 5px 5px;*/
-  font-size: 12px;
+  /*font-size: 12px;*/
   cursor: pointer;
   text-align: center;	
   text-decoration: none;
@@ -33,6 +36,7 @@ button {
   border-radius: 5px;
   /*box-shadow: 0 9px #999;*/
 }
+
 
 button:hover {background-color: #3e8e41}
 
@@ -56,6 +60,13 @@ button:active {
 }
 #img-bottom img {
 	width: 20%;
+}
+#img-bottom img:hover {
+	box-shadow: 5px 5px #666;
+	cursor: pointer;
+}
+#img-bottom img:active {
+  transform: translateY(4px);
 }
 /* ------------------ */
 #countdown-wrapper {
