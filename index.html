@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>2016 Presidential Election Countdown </title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
-		<h1>Countdown 'til doomsday</h1>
-		<h2>Donald Trump or Hillary Clinton</h2>
-		<div id="img-top"> 
-		<img name="podium" src="img/political-research.png">
-		</div>
-		<div id="countdown-date">
-			<p>Enter Election Date</p>
-			<input type="text" id="inputMonth" placeholder="Month (1 - 12)"></input>
-			<input type="text" id="inputDay" placeholder="Day (1-31)"></input>
-			<input type="text" id="inputYear" placeholder="Year (yyyy)"></input>
-			<button onclick="setEndDate()">Set Date</button>
-		</div>
-		<div id="countdown-wrapper">
-			<div class="time-wrapper">
-				<div class="time-value" id="weeks">asdf</div>
-				<div class="time-text">Weeks</div>
-			</div>
-			<div class="time-wrapper">
-				<div class="time-value"  id="days"></div>
-				<div class="time-text">Days</div>
-			</div>
-			<div class="time-wrapper">
-				<div class="time-value"  id="hours"></div>
-				<div class="time-text">Hours</div>
-			</div>
-			<div class="time-wrapper">
-				<div class="time-value"  id="minutes"></div>
-				<div class="time-text">Minutes</div>
-			</div>
-			<div class="time-wrapper">
-				<div class="time-value"  id="seconds"></div>
-				<div class="time-text">Seconds</div>
-			</div>
-		</div>
-		<div id="img-bottom" onclick="toggleCountDown();">
-		<img src="img/images-political-donkey-elephant.jpeg">
-		</div>
-		<!-- common practice to "load" scripts last -->
-		<script type="text/javascript" src="js/scripts.js"></script>
-	</body>
+
+<head>
+    <title>2016 Presidential Election Countdown </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Countdown 'til Election Day</h1>
+    <h2>Donald Trump or Hillary Clinton</h2>
+    <div id="img-top">
+        <img name="podium" src="img/political-research.png">
+    </div>
+    <div id="countdown-date">
+        <p>Enter Election Date</p>
+        <input type="text" id="inputMonth" placeholder="Month (1 - 12)"></input>
+        <input type="text" id="inputDay" placeholder="Day (1-31)"></input>
+        <input type="text" id="inputYear" placeholder="Year (yyyy)"></input>
+        <button onclick="setEndDate()">Set Date</button>
+    </div>
+    <div id="countdown-wrapper">
+        <div class="time-wrapper">
+            <div class="time-value" id="weeks">asdf</div>
+            <div class="time-text">Weeks</div>
+        </div>
+        <div class="time-wrapper">
+            <div class="time-value" id="days"></div>
+            <div class="time-text">Days</div>
+        </div>
+        <div class="time-wrapper">
+            <div class="time-value" id="hours"></div>
+            <div class="time-text">Hours</div>
+        </div>
+        <div class="time-wrapper">
+            <div class="time-value" id="minutes"></div>
+            <div class="time-text">Minutes</div>
+        </div>
+        <div class="time-wrapper">
+            <div class="time-value" id="seconds"></div>
+            <div class="time-text">Seconds</div>
+        </div>
+    </div>
+    <div id="img-bottom" onclick="toggleCountDown();">
+        <img src="img/images-political-donkey-elephant.jpeg">
+    </div>
+    <!-- common practice to "load" scripts last -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
 </html>

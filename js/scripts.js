@@ -1,4 +1,4 @@
-var endTime = new Date(2016, 10, 8, 19, 0, 0, 0);
+var endTime = new Date(2021, 10, 8, 19, 0, 0, 0);
 
 var timer = document.getElementById('countdown-wrapper');
 var weeks = timer.querySelector('#weeks');
@@ -87,6 +87,7 @@ function setEndDate() {
 
 function isValidDate(inputYear, inputMonth, inputDay)
 {
+	console.log(inputYear, inputMonth, inputDay);
 	
     if (!isValidDateNumber('year', inputYear)
 		|| !isValidDateNumber('month', inputMonth)
